@@ -41,8 +41,8 @@ export default class WelcomeToVR extends React.Component {
   render() {
     return (
       <View>
-          {/*<VideoVR/>*/}
-          { this.helloWorld() }
+          <VideoVR/>
+          {/*{ this.helloWorld() }*/}
       </View>
     );
   }

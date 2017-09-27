@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2d9dab80-43d7-4511-a408-a198d9835e61" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactvr_musical-master/index.vr.js" afterPath="$PROJECT_DIR$/reactvr_musical-master/index.vr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HelloWorld/index.vr.js" afterPath="$PROJECT_DIR$/HelloWorld/index.vr.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +17,48 @@
       <file leaf-file-name="VideoVR.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HelloWorld/components/VideoVR.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-770">
+            <state relative-caret-position="608">
+              <caret line="74" column="43" lean-forward="false" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gallery-vr/__tests__/client.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.vr.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HelloWorld/index.vr.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="47" column="3" lean-forward="true" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="button-00.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gallery-vr/static_assets/button-00.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Button.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gallery-vr/components/Button.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-439">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -26,11 +67,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.vr.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HelloWorld/index.vr.js">
+      <file leaf-file-name="index.vr.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gallery-vr/index.vr.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="27" lean-forward="false" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+            <state relative-caret-position="-416">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UI.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gallery-vr/components/UI.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-123">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -42,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/reactvr_musical-master_server/server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="464">
-              <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+              <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -74,9 +127,9 @@
         <option value="$PROJECT_DIR$/components/VideoVR.js" />
         <option value="$PROJECT_DIR$/index.vr.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/HelloWorld/index.vr.js" />
         <option value="$PROJECT_DIR$/reactvr_musical-master_server/server.js" />
         <option value="$PROJECT_DIR$/reactvr_musical-master/index.vr.js" />
+        <option value="$PROJECT_DIR$/HelloWorld/index.vr.js" />
       </list>
     </option>
   </component>
@@ -87,6 +140,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/gallery-vr/node_modules" />
     <handled-path value="$PROJECT_DIR$/reactvr_musical-master/node_modules" />
     <handled-path value="$PROJECT_DIR$/reactvr_musical-master_server/node_modules" />
   </component>
@@ -123,12 +177,30 @@
             <path>
               <item name="react-vr" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-vr" type="462c0819:PsiDirectoryNode" />
-              <item name="reactvr_musical-master" type="462c0819:PsiDirectoryNode" />
+              <item name="gallery-vr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-vr" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-vr" type="462c0819:PsiDirectoryNode" />
-              <item name="reactvr_musical-master_server" type="462c0819:PsiDirectoryNode" />
+              <item name="gallery-vr" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-vr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-vr" type="462c0819:PsiDirectoryNode" />
+              <item name="gallery-vr" type="462c0819:PsiDirectoryNode" />
+              <item name="static_assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-vr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-vr" type="462c0819:PsiDirectoryNode" />
+              <item name="gallery-vr" type="462c0819:PsiDirectoryNode" />
+              <item name="vr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-vr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-vr" type="462c0819:PsiDirectoryNode" />
+              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -149,6 +221,9 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gallery-vr" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -264,7 +339,7 @@
       <option name="presentableId" value="Default" />
       <updated>1506510870072</updated>
       <workItem from="1506510871669" duration="3304000" />
-      <workItem from="1506530472108" duration="2601000" />
+      <workItem from="1506530472108" duration="3221000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1506511477934</created>
@@ -287,11 +362,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506532187464</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="server musical forest">
+      <created>1506533873027</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1506533873027</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5905000" />
+    <option name="totallyTimeSpent" value="6525000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -335,7 +417,8 @@
     <MESSAGE value="init commit" />
     <MESSAGE value="video player" />
     <MESSAGE value="2nd project" />
-    <option name="LAST_COMMIT_MESSAGE" value="2nd project" />
+    <MESSAGE value="server musical forest" />
+    <option name="LAST_COMMIT_MESSAGE" value="server musical forest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -467,16 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HelloWorld/components/VideoVR.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-770">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reactvr_musical-master/components/Forest.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -509,7 +582,7 @@
         <state relative-caret-position="-422">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -525,7 +598,7 @@
     <entry file="file://$PROJECT_DIR$/reactvr_musical-master_server/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
-          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+          <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -538,10 +611,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HelloWorld/components/VideoVR.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="74" column="43" lean-forward="false" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery-vr/__tests__/client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HelloWorld/index.vr.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="27" lean-forward="false" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+        <state relative-caret-position="358">
+          <caret line="47" column="3" lean-forward="true" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery-vr/static_assets/button-00.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery-vr/components/Button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-439">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery-vr/index.vr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-416">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery-vr/components/UI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-123">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
