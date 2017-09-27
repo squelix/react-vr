@@ -4,25 +4,19 @@ import {
 } from 'react-vr';
 import Button from './Button';
 
-class UI extends React.Component {
-
-  constructor(props) {
-    super(props);
-
-    this.buttons = this.props.buttonConfig;
-  }
+export default class UI extends React.Component {
 
   render () {
-
-    const buttons = this.buttons.map((button) =>
+    const buttons = this.props.buttonConfig.map((button) =>
       <Button
         key={button.key}
         onClick={()=>{
           this.props.onClick(button.key);
         }}
-        src={button.buttonImageSrc}
+        src={button.imageSrc}
+        name={button.name}
       />
-      );
+    );
 
     return (
       <View
@@ -40,6 +34,4 @@ class UI extends React.Component {
       </View>
     );
   }
-};
-
-module.exports = UI;
+}

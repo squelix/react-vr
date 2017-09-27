@@ -2,40 +2,42 @@ import React from 'react';
 import {
   AppRegistry,
   View,
+  asset,
+  Pano,
 } from 'react-vr';
-import Canvas from './components/Canvas';
+
 import UI from './components/UI';
 
 const Config = [
   {
     key: 0,
-    imageSrc: 'reactconf_00.jpg',
-    buttonImageSrc: 'button-00.png',
+    name: 'Inside Building',
+    imageSrc: 'vr1.jpg',
   },
   {
     key: 1,
-    imageSrc: 'reactconf_01.jpg',
-    buttonImageSrc: 'button-01.png',
+    name: 'Witcher',
+    imageSrc: 'vr2.jpg',
   },
   {
     key: 2,
-    imageSrc: 'reactconf_02.jpg',
-    buttonImageSrc: 'button-02.png',
+    name: 'Disney',
+    imageSrc: 'vr3.jpg',
   },
   {
     key: 3,
-    imageSrc: 'reactconf_03.jpg',
-    buttonImageSrc: 'button-03.png',
+    name: 'R2D2',
+    imageSrc: 'vr4.jpg',
   }
 ];
 
-export default class GDVR_REACTVR_SITEPOINT_GALLERY extends React.Component {
+export default class GalleryVr extends React.Component {
 
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = {
-      src: 'reactconf_00.jpg',
+      src: 'vr1.jpg',
     };
   }
 
@@ -43,8 +45,8 @@ export default class GDVR_REACTVR_SITEPOINT_GALLERY extends React.Component {
 
     return (
       <View>
-        <Canvas
-          src={this.state.src}
+        <Pano
+            source={asset(this.state.src)}
         />
         <UI
           buttonConfig={Config}
@@ -57,4 +59,4 @@ export default class GDVR_REACTVR_SITEPOINT_GALLERY extends React.Component {
   }
 };
 
-AppRegistry.registerComponent('GDVR_REACTVR_SITEPOINT_GALLERY', () => GDVR_REACTVR_SITEPOINT_GALLERY);
+AppRegistry.registerComponent('GalleryVr', () => GalleryVr);
