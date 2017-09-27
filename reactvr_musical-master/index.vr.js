@@ -34,8 +34,8 @@ export default class musical_exp_react_vr_pusher extends React.Component {
   }
   
   componentWillMount() {
-	  const pusher = new Pusher('<INSERT_PUSHER_APP_KEY>', {
-        cluster: '<INSERT_PUSHER_APP_CLUSTER>',
+	  const pusher = new Pusher('53f02bdfe6cccdb622b7', {
+        cluster: 'eu',
 		encrypted: true,
 	  });
       this.socketId = null;
@@ -70,7 +70,7 @@ export default class musical_exp_react_vr_pusher extends React.Component {
   onShapeClicked(index) {
     this.config[index].playerState.play();
     console.log('play ' + index);
-    fetch('http://<INSERT_YOUR_SERVER_URL>/pusher/trigger', {
+    fetch('http://127.0.0.1:5000/pusher/trigger', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
