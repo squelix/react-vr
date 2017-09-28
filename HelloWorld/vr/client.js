@@ -9,6 +9,7 @@ function init(bundle, parent, options) {
   const vr = new VRInstance(bundle, 'WelcomeToVR', parent, {
     // Add custom options here
     ...options,
+      cursorVisibility: 'visible',
   });
   vr.render = function() {
     // Any custom behavior you want to perform on each frame goes here

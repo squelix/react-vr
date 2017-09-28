@@ -70,7 +70,7 @@ export default class reactvr_musical extends React.Component {
   onShapeClicked(index) {
     this.config[index].playerState.play();
     console.log('play ' + index);
-    fetch('http://127.0.0.1:5000/pusher/trigger', {
+    fetch('http://192.168.1.49:5000/pusher/trigger', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
@@ -198,9 +198,9 @@ export default class reactvr_musical extends React.Component {
         <Pano source={asset('images/background.jpg')} />
 		
 		<Forest trees={80} perimeter={30} />
-		{/*<Forest trees={70} perimeter={40} />*/}
-		{/*<Forest trees={60} perimeter={20} />*/}
-		{/*<Forest trees={40} perimeter={15} />*/}
+		<Forest trees={70} perimeter={40} />
+		<Forest trees={60} perimeter={20} />
+		<Forest trees={40} perimeter={15} />
 
         <SpotLight
             intensity={1}
